@@ -1,1 +1,1 @@
-docker build -t test .
+docker build -t appimage .
