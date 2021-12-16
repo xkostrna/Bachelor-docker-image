@@ -30,7 +30,7 @@ def file_write_code(return_code):
 
 
 def main():
-    print("**run_script**")
+    print("Container running...")
     call_cmake()
     make_command = "make"
     return_code: int = run(make_command)
