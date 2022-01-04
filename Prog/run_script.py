@@ -34,7 +34,7 @@ def main():
     call_cmake()
     make_command = "make"
     return_code: int = run(make_command)
-    app_execute_command = "./UnitTests.exe"
+    app_execute_command = "./Tests/UnitTests.exe"
     if return_code == 0:
         return_code: int = run(app_execute_command)
         file_write_code(return_code)
