@@ -1,1 +1,1 @@
-docker build -t appimage .
+docker build -t utest-image .
