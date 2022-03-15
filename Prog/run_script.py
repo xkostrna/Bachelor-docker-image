@@ -38,10 +38,8 @@ def main():
     if return_code == 0:
         return_code: int = run(app_execute_command)
         file_write_code(return_code)
-        exit(-1)
     else:
         file_write_code(-1000)  # make compilation error
-        exit(-1)
     exit(0)
 
 
